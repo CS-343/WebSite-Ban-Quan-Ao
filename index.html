@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fashion Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🛍️ Fashion Store</h1>
+    <div id="loginStatus">
+      <button id="loginButton">Đăng Nhập</button>
+      <button id="logoutButton" style="display: none;">Đăng Xuất</button>
+    </div>
+  </header>
+
+<main>
+  <h2>Sản Phẩm</h2>
+  <div class="products">
+    <!-- Sản phẩm 1 -->
+    <div class="product-card">
+      <img src="shirt.jpg" alt="Áo sơ mi nam"/>
+      <h3>Áo Sơ Mi Nam</h3>
+      <p>Giá: <strong>200.000 VND</strong></p>
+      <button class="add-to-cart">Thêm vào giỏ hàng</button>
+    </div>
+
+    <!-- Sản phẩm 2 -->
+    <div class="product-card">
+      <img src="tshirt.jpg" alt="Áo thun"/>
+      <h3>Áo Thun Basic</h3>
+      <p>Giá: <strong>150.000 VND</strong></p>
+      <button class="add-to-cart">Thêm vào giỏ hàng</button>
+    </div>
+
+    <!-- Sản phẩm 3 -->
+    <div class="product-card">
+      <img src="jeans.jpg" alt="Quần jean"/>
+      <h3>Quần Jean Nữ</h3>
+      <p>Giá: <strong>300.000 VND</strong></p>
+      <button class="add-to-cart">Thêm vào giỏ hàng</button>
+    </div>
+
+    <!-- Sản phẩm 4 -->
+    <div class="product-card">
+      <img src="jacket.jpg" alt="Áo khoác"/>
+      <h3>Áo Khoác Bomber</h3>
+      <p>Giá: <strong>400.000 VND</strong></p>
+      <button class="add-to-cart">Thêm vào giỏ hàng</button>
+    </div>
+
+    <!-- Sản phẩm 5 -->
+    <div class="product-card">
+      <img src="skirt.jpg" alt="Chân váy"/>
+      <h3>Chân Váy Dài</h3>
+      <p>Giá: <strong>220.000 VND</strong></p>
+      <button class="add-to-cart">Thêm vào giỏ hàng</button>
+    </div>
+
+    <!-- Sản phẩm 6 -->
+    <div class="product-card">
+      <img src="hoodie.jpg" alt="Hoodie"/>
+      <h3>Áo Hoodie Unisex</h3>
+      <p>Giá: <strong>320.000 VND</strong></p>
+      <button class="add-to-cart">Thêm vào giỏ hàng</button>
+    </div>
+  </div>
+</main>
+
+
+  <!-- FORM ĐĂNG NHẬP -->
+<!-- FORM ĐĂNG NHẬP -->
+<div id="loginForm">
+  <div class="form-container">
+    <h2>Đăng Nhập</h2>
+    <form id="formLogin">
+      <input type="text" id="username" placeholder="Tài khoản" required />
+      <input type="password" id="password" placeholder="Mật khẩu" required />
+      <button type="submit">Đăng nhập</button>
+      <button type="button" id="cancelLogin" class="cancel-btn">Hủy</button>
+    </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Fashion Store. Made with 💙</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
